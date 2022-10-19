@@ -1,0 +1,169 @@
+*{
+    box-sizing: border-box;
+}
+
+body {
+    background-color:#ECE2D0;
+    color: #A26769;
+    font-family: Verdana, Arial, sans-serif;
+    padding: 0 .5em
+}
+header {
+    background-color: #A26769;
+    background-image: url("logopainted.jpg");
+    background-repeat: no-repeat;
+    background-position: right;
+    padding: .125em;
+
+}
+
+header a{
+    text-decoration: none;
+
+}
+header a:link{
+    color: #732C2C;
+}
+header a:visited
+{
+    color:#732C2C
+}
+
+header a:hover{
+    color: #582C4D;
+}
+
+h1{
+    font-size: 95px;
+}
+h2{
+    color: #582C4D;
+}
+h3{
+    color: #582C4D;
+}
+
+nav{
+    font-weight: bold;
+}
+
+nav ul{
+    background-color: #582C4D;
+    text-align: center;
+}
+
+nav li {
+    display: inline-block;
+    padding: 1em 2em;
+    color: #A26769;
+}
+
+nav a{
+    text-decoration: none;
+    display: block;
+    border: 3px solid #0000;
+}
+#thispage{
+    border: 3px;
+}
+nav a:link{
+    color: antiquewhite;
+}
+
+nav a:visited{
+    color: #D5B9B2;
+}
+
+nav a:hover {
+    color: antiquewhite;
+    border: 3px inset #582C4D;
+}
+
+#wrapper{
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    background-color: #BFB5AF;
+    min-width: 1200px;
+    max-width: 1480px;
+}
+main{
+    padding: 0 2em;
+    padding-top: 1em;
+}
+section h3{
+    text-align: center;
+    padding: .5em;
+}
+
+h4{
+    color: #582C4D;
+}
+h4 a{
+    text-decoration: none;
+}
+.twoitems {
+    float: left;
+    width: 50%;
+    padding-left: 2em;
+    padding-right: 2em;
+   }
+   
+.threeitems{
+    width: 33%;
+    float: left;
+    padding-left: 2em;
+    padding-right: 2em;
+}
+footer{
+    color: #D5B9B2;
+    background-color: #A26769;
+    font-size: .60em;
+    font-style: italic;
+    text-align: center;
+    padding: 1em;
+    background-image: url("logopaintedsmall.jpg");
+    background-repeat: no-repeat;
+    background-position: right;
+}
+.holds{
+    padding: 0 1em;
+}
+.floatleft{
+    float: left;
+    margin-left: .25em;
+    margin-right: 1em;
+    margin-bottom: 1em;
+}
+.floatright{
+    float: right;
+    margin-left: .25em;
+    margin-right: 1em;
+    margin-bottom: 1em;
+}
+.gymimages3{
+    margin: 15px 28px;
+}
+.gymimages2{
+    margin: 15px 120px;
+}
+.centertext{
+    text-align: center;
+}
+.lefttext{
+    text-align: left;
+}
+
+section a{
+    text-decoration: none;
+}
+section a:link{
+    color: #582C4D;
+}
+
+section a:visited{
+    color: #732C2C;
+}
+section a:hover{
+    color: #ECE2D0;
+}
